@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matthew Harrop</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'mainsite/styles.css' %}">
+
+</head>
+<body>
+
+<div class="container-fluid full-height bg-dark">
+        <div class="row h-100 my-auto">
+            <div class="col m-auto">
+                <div class="text-center">
+                    <div class="d-inline-block p-4 text-white border border-white rounded text-weight-bold text-center text-justify">
+                        <p class="mb-0">
+                            Hey there, I'm <span class="text-danger">Matt Harrop,</span> and</p>
+                        <p class="mb-0">I'm a Software Engineer in Training</p>
+                    </p>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+</div>
+
+<div>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div class="container-fluid mx-5 parent-div">
+  <div>
+    <h1 class="text-center my-5">About</h1>
+    <div class="header-bar"></div>
+  </div>
+    <div class="container-fluid row mb-5">
+        <div class="card col-md-4 border-0">
+<!--            <img src="/assets/PhotoOfMe.png" class="card-img-top" alt="...">-->
+            <div class="card-body">
+              <h5 class="card-title">Me</h5>
+              <p class="card-text">A tireless learner, I found a passion for developing software while putting off studying for the MCAT and haven't looked back.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#aboutMeModal">More</a>
+            </div>
+<!--          <app-about-me-modal></app-about-me-modal>-->
+          </div>
+
+          <div class="card col-md-4 border-0">
+<!--            <img src="/assets/Brandeis_seal_blue_CMYK.png" class="card-img-top" alt="...">-->
+<!--            <img src="/assets/Brandeis_logo_stacked_blue_digital.png" class="card-img-top" alt="...">-->
+            <div class="card-body">
+              <h5 class="card-title">School</h5>
+              <p class="card-text">I've got a bachelor's degree in (pre-med) biology, and I'm working toward a master's degree in Software Engineering.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#aboutSchoolModal">More</a>
+            </div>
+<!--            <app-about-school-modal></app-about-school-modal>-->
+          </div>
+
+          <div class="card col-md-4 border-0">
+<!--              <img src="/assets/WA-Trust-Bug.jpg" class="card-img-top my-2" alt="...">-->
+<!--              <img src="/assets/washington-trust-bank-logo-vector.png" class="card-img-top mb-5 text-center" alt="...">-->
+            <div class="card-body">
+              <h5 class="card-title">Work</h5>
+              <p class="card-text">I'm currently working at a regional bank supporting their IBM iSeries core processing system.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#aboutWorkModal">More</a>
+            </div>
+<!--            <app-about-work-modal></app-about-work-modal>-->
+          </div>
+    </div>
+</div>
+
+
+<div class="container-fluid d-flex parent-div">
+    <div class="col-5 mx-auto align-self-center">
+        <div>
+            <h1 class="text-center mt-5">Contact</h1>
+            <h5 class="text-center mt-4">Have a question or want to work together?</h5>
+        </div>
+
+        <form action="sendmessage" method="post">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Submit">
+        </form>
+
+<!--        <form [formGroup]="contactForm" class="form-group my-5" (ngSubmit)="onSubmit()">-->
+<!--            <input type="text" class="form-control" placeholder="Your name..." required-->
+<!--                    formControlName="contactName">-->
+<!--            <div *ngIf="!contactName.valid && contactName.touched" class="alert alert-danger">-->
+<!--                Who are you...?-->
+<!--            </div>-->
+
+<!--            <input type="email" placeholder="Your Email..." required class="form-control"-->
+<!--                    formControlName="contactEmail">-->
+<!--            <div *ngIf="!contactEmail.valid && contactEmail.touched" class="alert alert-danger">-->
+<!--                Where can I find you on this vast inter-web...? (Need a valid email address)-->
+<!--            </div>-->
+
+<!--            <textarea class="form-control" rows="3" placeholder="Your message..." required-->
+<!--                      formControlName="contactMessage"></textarea>-->
+<!--            <div *ngIf="!contactMessage.valid && contactMessage.touched" class="alert alert-danger">-->
+<!--                Didn't you want to say something...?-->
+<!--            </div>-->
+
+        </form>
+    </div>
+</div>
+
+
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
