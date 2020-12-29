@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="698183e7-3850-4127-bfed-23e0e4e4111a" name="Default Changelist" comment="Removing settings file from version control.">
-      <change afterPath="$PROJECT_DIR$/mainsite/static/mainsite/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainsite/static/mainsite/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="7f253d4b-2d63-4709-8ee1-cfd59cda8c01" />
+  <component name="JupyterTrust" id="09c9ad4d-a68d-449b-a1f8-260b00a1aaa0" />
   <component name="ProjectId" id="1kDIinbSs5W4i2u2q0rvumNOqz2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -107,6 +107,10 @@
       <workItem from="1606264955683" duration="3310000" />
       <workItem from="1608248711284" duration="284000" />
       <workItem from="1608392136766" duration="394000" />
+      <workItem from="1608392557537" duration="20000" />
+      <workItem from="1608392764073" duration="457000" />
+      <workItem from="1609202810703" duration="113000" />
+      <workItem from="1609202928188" duration="41000" />
       <workItem from="1608392557537" duration="513000" />
       <workItem from="1608479962824" duration="109000" />
       <workItem from="1608480105133" duration="103000" />
@@ -143,5 +147,56 @@
     </ignored-roots>
     <MESSAGE value="Removing settings file from version control." />
     <option name="LAST_COMMIT_MESSAGE" value="Removing settings file from version control." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605480346806">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="455" y="270" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875@0.25.1440.875" timestamp="1605480346806" />
+    <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605834609223">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1605834609223" />
+    <state x="583" y="351" key="Github.ShareDialog" timestamp="1608248869519">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="583" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1608248869519" />
+    <state x="502" y="159" key="Github.UntrackedFilesDialog" timestamp="1608248916111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="502" y="159" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1608248916111" />
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom" timestamp="1605456708605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605456708605" />
+    <state width="1398" height="236" key="GridCell.Tab.0.center" timestamp="1605456708605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605456708605" />
+    <state width="1398" height="236" key="GridCell.Tab.0.left" timestamp="1605456708605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605456708605" />
+    <state width="1398" height="236" key="GridCell.Tab.0.right" timestamp="1605456708605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="236" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605456708605" />
+    <state x="229" y="77" key="SettingsEditor" timestamp="1608392576730">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608392576730" />
+    <state x="229" y="100" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605479452817" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608392393434">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608392393434" />
+    <state x="421" y="96" width="597" height="735" key="find.popup" timestamp="1605477488785">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="96" width="597" height="735" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605477488785" />
+    <state x="503" y="343" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608392362141">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="343" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1608392362141" />
   </component>
 </project>
