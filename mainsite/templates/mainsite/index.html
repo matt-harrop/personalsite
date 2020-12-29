@@ -49,7 +49,7 @@
 
 
 
-<div class="container-fluid mx-5 parent-div">
+<div class="container-fluid px-5 parent-div">
   <div>
     <h1 class="text-center my-5">About</h1>
     <div class="header-bar"></div>
@@ -108,8 +108,27 @@
 
         <form action="sendmessage" method="post">
             {% csrf_token %}
-            {{ form }}
-            <input type="submit" value="Submit">
+{#            Maybe use a Python form someday; right now, stick with HTML and Bootstrap and get something out there!#}
+{#            {{ form }}#}
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <input class="form-control" type="text" placeholder="Subject...">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <textarea class="form-control" rows="3" placeholder="Say whatever is in your heart..."></textarea>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <input class="btn btn-primary btn-block" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+
+
         </form>
 
 <!--        <form [formGroup]="contactForm" class="form-group my-5" (ngSubmit)="onSubmit()">-->
