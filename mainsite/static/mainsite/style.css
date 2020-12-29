@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+.parent-div {
+    min-height: 75vh;
+}
+
 .text-justify {
     text-align: justify;
     text-justify: inter-word;
@@ -19,4 +23,5 @@
     width: 100%;
     height: 300px;
     object-fit: contain;
+    margin-bottom: 2vh;
 }

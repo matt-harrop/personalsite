@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="698183e7-3850-4127-bfed-23e0e4e4111a" name="Default Changelist" comment="Fixed typo in About Me card images.">
+    <list default="true" id="698183e7-3850-4127-bfed-23e0e4e4111a" name="Default Changelist" comment="Updated contact form with Bootstrap; removed native Python form.">
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainsite/static/mainsite/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainsite/static/mainsite/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609203358019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated contact form with Bootstrap; removed native Python form.">
+      <created>1609204083683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609204083683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +163,8 @@
     </ignored-roots>
     <MESSAGE value="Removing settings file from version control." />
     <MESSAGE value="Fixed typo in About Me card images." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo in About Me card images." />
+    <MESSAGE value="Updated contact form with Bootstrap; removed native Python form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated contact form with Bootstrap; removed native Python form." />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="270" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605480346806">
@@ -193,10 +204,11 @@
     </state>
     <state x="229" y="77" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1608392576730" />
     <state x="229" y="100" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1605479452817" />
-    <state x="427" y="228" key="Vcs.Push.Dialog.v2" timestamp="1609203363221">
-      <screen x="0" y="25" width="1920" height="977" />
+    <state x="427" y="244" key="Vcs.Push.Dialog.v2" timestamp="1609204087101">
+      <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608392393434" />
+    <state x="427" y="244" key="Vcs.Push.Dialog.v2/0.25.1920.1055/-1920.25.1920.977@0.25.1920.1055" timestamp="1609204087101" />
     <state x="427" y="228" key="Vcs.Push.Dialog.v2/0.25.1920.977/-1920.25.1920.1055@0.25.1920.977" timestamp="1609203363221" />
     <state x="421" y="96" width="597" height="735" key="find.popup" timestamp="1605477488785">
       <screen x="0" y="0" width="1440" height="900" />
