@@ -51,11 +51,12 @@
 
 <div class="container-fluid px-5 parent-div">
   <div>
-    <h1 class="text-center my-5">About</h1>
+    <h1 class="text-center my-5 display-3">A Little About Me</h1>
     <div class="header-bar"></div>
   </div>
     <div class="row mb-5">
-        <div class="card col-md-4 border-0">
+        <div class="col-md-4 card-column">
+            <div class="card col-md-12 border-0">
 <!--            <img src="/assets/PhotoOfMe.png" class="card-img-top" alt="...">-->
             <div class="card-body">
                 <img class="card-img-top" src="{% static 'mainsite/images/myface.jpeg' %}" alt="My image">
@@ -67,8 +68,10 @@
             </div>
 <!--          <app-about-me-modal></app-about-me-modal>-->
           </div>
+        </div>
 
-          <div class="card col-md-4 border-0">
+        <div class="col-md-4 card-column">
+            <div class="card col-md-12 border-0 h-100">
 <!--            <img src="/assets/Brandeis_seal_blue_CMYK.png" class="card-img-top" alt="...">-->
 <!--            <img src="/assets/Brandeis_logo_stacked_blue_digital.png" class="card-img-top" alt="...">-->
             <div class="card-body">
@@ -81,8 +84,11 @@
             </div>
 <!--            <app-about-school-modal></app-about-school-modal>-->
           </div>
+        </div>
 
-          <div class="card shadow col-md-4 border-0">
+
+        <div class="col-md-4 card-column">
+            <div class="card col-md-12 border-0">
 <!--              <img src="/assets/WA-Trust-Bug.jpg" class="card-img-top my-2" alt="...">-->
 <!--              <img src="/assets/washington-trust-bank-logo-vector.png" class="card-img-top mb-5 text-center" alt="...">-->
             <div class="card-body">
@@ -95,6 +101,8 @@
             </div>
 <!--            <app-about-work-modal></app-about-work-modal>-->
           </div>
+        </div>
+
     </div>
 </div>
 
@@ -102,8 +110,8 @@
 <div id="contact-container" class="container-fluid d-flex parent-div bg-info">
     <div class="col-md-5 mx-auto align-self-center">
         <div>
-            <h1 class="text-center mt-1">Contact</h1>
-            <h5 class="text-center my-4">Have a question or want to work together?</h5>
+            <h1 class="text-center mt-1 display-4">Contact</h1>
+            <h5 class="text-center my-4">Sorry, was there something you wanted to say?</h5>
         </div>
 
         <form action="sendmessage" method="post">
@@ -112,11 +120,19 @@
 {#            {{ form }}#}
             <div class="container">
                 <div class="row mb-4">
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <input class="form-control" type="text" placeholder="First Name">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <input class="form-control" type="text" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-5">
+                        <input class="form-control" type="text" placeholder="Phone Number">
+                    </div>
+                    <div class="col-md-7">
+                        <input class="form-control" type="email" placeholder="Email Address">
                     </div>
                 </div>
                 <div class="row mb-4">
